@@ -1,0 +1,236 @@
+body{
+
+    background-color: #eee;
+    font-family:'Lato,sans-serif';
+}
+/* Style the header */
+header {
+    background-color: #2d3e50;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    font-size: 16px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff7f50;
+}
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 100px 0;
+}
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #ff7f50;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e64a19;
+}
+
+.feautures{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items:center ;
+width: 100%;
+max-width: 700px;
+margin: 0;
+padding: 0;
+
+}
+.grid{
+display: flex;
+flex-direction: row;
+
+}
+.icon{
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-solid{
+    color: darkorange;
+    font-size: 50px;
+    }
+    
+    #howItWorks {
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #pricing {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; /* Allow products to wrap on smaller screens */
+        justify-content: space-around;
+        margin-top: 60px;
+        margin-bottom: 90px;
+    }
+    
+    .product {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+/* Adjusted width calculation */
+        border: 1px solid black;
+        margin: 20px;
+        border-radius: 3px;
+        padding: 15px;
+    }
+    
+    .level {
+        background-color: #ddd;
+        color: black;
+        width: 100%;
+        padding: 15px 0;
+        font-weight: 700;
+    }
+    
+    ol > li {
+        margin-right: 25px;
+    }
+    
+    .btn {
+        background-color: #f1c40f;
+        margin: 15px 0;
+        font-weight: 400;
+        border: 0;
+        width: 30%;
+        height: 30px;
+        font-size: 1em;
+        min-width: 100px;
+    }
+    #courses {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .course-card {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        width: 30%; /* Adjust the width as needed */
+        margin-bottom: 20px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .course-card img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    
+    .course-details {
+        margin-top: 10px;
+    }
+    
+    .level {
+        font-weight: bold;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    li {
+        margin: 5px 0;
+    }
+    
+    .btn {
+        background-color: #ff7f50;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .btn:hover {
+        background-color: #e64a19;
+    }
+
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .about-us {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        text-align: center;
+
+        background-color: #eee;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+    .social-icons {
+        margin-top: 20px;
+    }
+    
+    .social-icon {
+        font-size: 24px;
+        margin-right: 10px;
+        color: #333; /* Adjust the color as needed */
+    }
+    
+
+    
